@@ -16349,7 +16349,7 @@ var RayTracingApp = (function () {
                         rootNode.addChild(this._camera = new H.Camera({ clearColor: [0, 1, 0, 1] }, { near: 0.01, far: 100, fov: Math.PI / 3 }));
                         this._camera.pos.set([0, 0, 6]);
                         _a = this;
-                        return [4, H.resource.load({ type: 'texture', name: 'noise.tex', src: '/assets/textures/noise-rgba.webp' })];
+                        return [4, H.resource.load({ type: 'texture', name: 'noise.tex', src: './assets/textures/noise-rgba.webp' })];
                     case 1:
                         _a._noiseTex = _c.sent();
                         _b = this;
