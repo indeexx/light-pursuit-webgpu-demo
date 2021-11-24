@@ -16311,7 +16311,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 __webpack_require__(/*! select-pure/dist/index.js */ "./node_modules/_select-pure@2.1.1-alpha.1@select-pure/dist/index.js");
 var H = __webpack_require__(/*! ../src/index */ "./src/index.ts");
 var debugCs_1 = __webpack_require__(/*! ./debugCs */ "./demo/debugCs.ts");
-var MODEL_SRC = '/assets/models/walls/scene.gltf';
+var MODEL_SRC = './assets/models/walls/scene.gltf';
 var MAX_SAMPLERS = 256;
 function addSelect(onChange) {
     var domText = "\n<select-pure name=\"View Mode\" id=\"view-mode\" style=\"position:absolute;right:0;width:128px;\">\n  <option-pure value=\"result\">Result</option-pure>\n  <option-pure value=\"bvh\">Show BVH</option-pure>\n  <option-pure value=\"gbuffer\">Show GBuffer</option-pure>\n  <option-pure value=\"origin\">Origin</option-pure>\n</select-pure>\n  ";
